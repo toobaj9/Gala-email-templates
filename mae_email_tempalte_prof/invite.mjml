@@ -1,0 +1,207 @@
+<mjml>
+  <mj-head>
+    <mj-title>CMS Gala 2026 - Professor Invitation</mj-title>
+    <mj-attributes>
+      <mj-all font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" color="#063f37" />
+      <mj-text font-size="16px" line-height="1.6" />
+    </mj-attributes>
+    <!-- Mobile Styles -->
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .mobile-title div {
+          font-size: 42px !important;
+          line-height: 1.0 !important;
+        }
+        .mobile-date div {
+          font-size: 20px !important;
+        }
+        .mobile-time div {
+          font-size: 16px !important;
+        }
+        .mobile-body div {
+          font-size: 14px !important;
+          text-align: left !important;
+        }
+        .mobile-itinerary {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+        .mobile-itinerary table {
+          padding: 15px 10px !important;
+        }
+        .mobile-padding {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+        .date-column table {
+          border-left: none !important;
+          border-right: none !important;
+          border-top: 1px solid #8a9a8e !important;
+          border-bottom: 1px solid #8a9a8e !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fafdf6">
+    <!-- Container wrapper -->
+    <mj-wrapper padding="0px">
+      
+      <!-- Hero Banner -->
+      <mj-hero mode="fixed-height" height="160px" background-width="600px" background-height="300px" background-url="https://mailsend-email-assets.mailtrap.io/sqqavy56jjav57ywoovgwz35b7kw.jpg" background-color="#e2dedb" padding="0">
+        <mj-text></mj-text>
+      </mj-hero>
+
+      <!-- Intro Text -->
+      <mj-section background-color="#fafdf6" padding="40px 20px 20px">
+        <mj-column>
+          <mj-text align="center" font-size="13px" letter-spacing="2px" color="#063f37" text-transform="uppercase" padding-bottom="0">
+            Please Join Us For The
+          </mj-text>
+          <mj-text align="center" font-size="60px" font-style="italic" font-weight="bold" color="#063f37" letter-spacing="3px" padding-top="0" padding-bottom="0" font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" mj-class="mobile-title">
+            CMS GALA
+          </mj-text>
+          <mj-text align="center" font-size="12px" letter-spacing="1.5px" color="#063f37" text-transform="uppercase" line-height="1.8" padding-top="0">
+            Wear your favorite semi-formal outfit &amp;<br/>
+            enjoy a night in an enchanted garden with<br/>
+            dinner, music and entertainment
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Date/Time Row -->
+      <mj-section background-color="#fafdf6" padding="10px 20px 20px">
+        <mj-column width="25%" vertical-align="middle">
+          <mj-text align="center" font-size="20px" font-weight="bold" color="#063f37" line-height="1.0">
+            HL 170<br/>
+            <span style="font-size: 14px; font-weight: normal;">UTSC</span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="30%" vertical-align="middle" border-left="1px solid #8a9a8e" border-right="1px solid #8a9a8e" css-class="date-column">
+          <mj-text align="center" font-size="26px" font-weight="bold" color="#063f37" line-height="1" mj-class="mobile-date">
+            March 13<br/><span style="font-size: 18px; font-weight: normal;">2026</span>
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" vertical-align="middle">
+          <mj-text align="center" font-size="20px" font-weight="bold" color="#063f37" line-height="0.7" mj-class="mobile-time">
+            5:00 <span style="font-size: 14px; font-weight: normal;">PM</span><br/>
+            <span style="font-size: 10px; font-weight: normal; line-height: 3;">TO</span><br/>
+            10:30 <span style="font-size: 14px; font-weight: normal;">PM</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Location & Dress Code -->
+      <mj-section background-color="#fafdf6" padding="15px 20px">
+        <mj-column>
+          <mj-text align="center" font-size="13px" letter-spacing="2px" color="#063f37" text-transform="uppercase" padding-bottom="0">
+            HL 170, University of Toronto Scarborough
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-style="italic" color="#063f37" padding-top="5px">
+            Dress code: Semi-formal / Formal
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section background-color="#fafdf6" padding="10px 60px">
+        <mj-column>
+          <mj-divider border-color="#8a9a8e" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Personal Message -->
+      <mj-section background-color="#fafdf6" padding="20px 30px 40px 30px" css-class="mobile-padding">
+        <mj-column>
+          <mj-text align="left" font-size="19px" line-height="1.4" color="#063f37" padding-bottom="10px">
+            <em>Dear Professor <strong style="white-space: nowrap;">*|LNAME|*</strong>,</em>
+          </mj-text>
+          <mj-text align="left" font-size="15px" line-height="1.7" color="#063f37" mj-class="mobile-body">
+            We hope this message finds you well. On behalf of the <strong>Association of Mathematical and Computer Science Students (AMACSS)</strong>, we would be honored to have you join us for the <strong>4th Annual CMS Gala: An Enchanted Garden</strong>. This evening will provide a premier opportunity to step outside the classroom and celebrate the incredible achievements and connections that make up the CMS community at UTSC.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section background-color="#fafdf6" padding="10px 60px">
+        <mj-column>
+          <mj-divider border-color="#8a9a8e" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Itinerary Section -->
+      <mj-section background-color="#fafdf6" padding="20px 30px 40px 30px" css-class="mobile-itinerary">
+        <mj-column background-color="#f4f7f2" border-radius="8px" border="1px solid #8a9a8e" padding="20px 15px">
+          <mj-text align="center" font-size="18px" font-weight="bold" color="#063f37" letter-spacing="2px" text-transform="uppercase" padding-bottom="15px">
+            Evening Itinerary
+          </mj-text>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#063f37" padding="5px 0">
+            <strong>5:00 PM — Doors Open</strong><br/>
+            <span style="font-size: 13px;">Join us early for a cocktail hour (mocktails) while mingling with students and colleagues.</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#063f37" padding="5px 0">
+            <strong>5:35 PM — Opening Remarks</strong><br/>
+            <span style="font-size: 13px;">We will kick off the evening with a welcoming address from our Department Chair.</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#063f37" padding="5px 0">
+            <strong>6:00 PM — Honoring CMS Excellence</strong><br/>
+            <span style="font-size: 13px;">Recognizing this year's outstanding accomplishments from our TAs, student leaders, and esteemed faculty.</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#063f37" padding="5px 0">
+            <strong>6:40 PM — The CMS Family Feud</strong><br/>
+            <span style="font-size: 13px;">Represent the department in our game show segment, with friendly competition involving both students and staff.</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#063f37" padding="5px 0">
+            <strong>7:00 PM — Dinner &amp; Live Entertainment</strong><br/>
+            <span style="font-size: 13px;">Enjoy a complimentary catered dinner with live musical performances throughout the evening.</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#063f37" padding="5px 0">
+            <strong>Ongoing — Student-Faculty Interaction</strong><br/>
+            <span style="font-size: 13px;">Connect with the CMS community in a relaxed and inclusive setting outside the traditional classroom environment.</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section background-color="#fafdf6" padding="10px 60px">
+        <mj-column>
+          <mj-divider border-color="#8a9a8e" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- RSVP Section -->
+      <mj-section background-color="#fafdf6" padding="10px 40px 20px">
+        <mj-column>
+          <mj-text align="center" font-size="15px" line-height="1.6" color="#063f37" padding-bottom="10px">
+            To accept this invitation, please RSVP:
+          </mj-text>
+          <mj-button href="https://forms.gle/svmPUn5q3zcf9mAy9" background-color="#063f37" color="#fafdf6" font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="16px" font-weight="bold" border-radius="5px" padding="10px 0">
+            RSVP Here
+          </mj-button>
+          <mj-text align="center" font-size="15px" line-height="1.6" color="#063f37" padding="10px 10px">
+            You are welcome to attend for any portion of the event.<br/>We sincerely hope you can join us for this special evening!
+          </mj-text>
+          <mj-text align="center" font-size="15px" line-height="1.6" color="#063f37" padding-top="10px" padding-bottom="0">
+            Warm regards,
+          </mj-text>
+          <mj-text align="center" font-size="15px" font-weight="bold" line-height="1.6" color="#063f37" padding-top="0">
+            The AMACSS Team
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer Section -->
+      <mj-section background-color="#063f37" padding="40px 20px 20px 20px">
+        <mj-column>
+          <mj-image src="https://mailsend-email-assets.mailtrap.io/cgxq6b8r9kl332q6qvbulciau58u.png" alt="AMACSS Logo" width="250px" align="center" padding-bottom="10px" />
+          <mj-text align="center" font-size="12px" letter-spacing="3px" text-transform="uppercase" color="#fafdf6" padding="10px 0">
+            <a href="https://www.instagram.com/amacss.utsc/" style="color: #fafdf6; text-decoration: none;">Instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.linkedin.com/company/association-of-mathematical-and-computer-science-students/" style="color: #fafdf6; text-decoration: none;">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://amacss.org/" style="color: #fafdf6; text-decoration: none;">Website</a>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="rgba(250, 253, 246, 0.7)" padding="30px 0 10px 0">
+            © 2026 AMACSS. All rights reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
