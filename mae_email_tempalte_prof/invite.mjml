@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>CMS Gala 2026 - Professor Invitation</mj-title>
+    <mj-title>CMS Gala 2026 - Invitation</mj-title>
     <mj-attributes>
       <mj-all font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" color="#063f37" />
       <mj-text font-size="16px" line-height="1.6" />
@@ -81,11 +81,11 @@
             March 13<br/><span style="font-size: 18px; font-weight: normal;">2026</span>
           </mj-text>
         </mj-column>
-        <mj-column width="25%" vertical-align="middle">
-          <mj-text align="center" font-size="20px" font-weight="bold" color="#063f37" line-height="0.7" mj-class="mobile-time">
-            5:00 <span style="font-size: 14px; font-weight: normal;">PM</span><br/>
-            <span style="font-size: 10px; font-weight: normal; line-height: 3;">TO</span><br/>
-            10:30 <span style="font-size: 14px; font-weight: normal;">PM</span>
+        <mj-column width="30%" vertical-align="middle">
+          <mj-text align="center" font-size="20px" font-weight="bold" color="#063f37" line-height="1.4" mj-class="mobile-time">
+            <span style="white-space: nowrap;">5:00 <span style="font-size: 14px; font-weight: normal;">PM</span></span><br/>
+            <span style="font-size: 10px; font-weight: normal;">TO</span><br/>
+            <span style="white-space: nowrap;">10:30 <span style="font-size: 14px; font-weight: normal;">PM</span></span>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -113,7 +113,7 @@
       <mj-section background-color="#fafdf6" padding="20px 30px 40px 30px" css-class="mobile-padding">
         <mj-column>
           <mj-text align="left" font-size="19px" line-height="1.4" color="#063f37" padding-bottom="10px">
-            <em>Dear <strong style="white-space: nowrap;">*|FNAME|* *|LNAME|*</strong>,</em>
+            <em>Dear <strong style="white-space: nowrap;">{{first_name}} {{last_name}}</strong>,</em>
           </mj-text>
           <mj-text align="left" font-size="15px" line-height="1.7" color="#063f37" mj-class="mobile-body">
             We hope this message finds you well. On behalf of the <strong>Association of Mathematical and Computer Science Students (AMACSS)</strong>, we would be honored to have you join us for the <strong>4th Annual CMS Gala: An Enchanted Garden</strong>. This evening will provide a premier opportunity to step outside the classroom and celebrate the incredible achievements and connections that make up the CMS community at UTSC.
