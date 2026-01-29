@@ -196,8 +196,11 @@
           <mj-text align="center" font-size="12px" letter-spacing="3px" text-transform="uppercase" color="#fafdf6" padding="10px 0">
             <a href="https://www.instagram.com/amacss.utsc/" style="color: #fafdf6; text-decoration: none;">Instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.linkedin.com/company/association-of-mathematical-and-computer-science-students/" style="color: #fafdf6; text-decoration: none;">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://amacss.org/" style="color: #fafdf6; text-decoration: none;">Website</a>
           </mj-text>
-          <mj-text align="center" font-size="11px" color="rgba(250, 253, 246, 0.7)" padding="30px 0 10px 0">
+          <mj-text align="center" font-size="11px" color="#b8beb5" padding="25px 0 0 0">
             © 2026 AMACSS. All rights reserved.
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#b8beb5" line-height="1.0" padding="5px 20px">
+            Association of Mathematical and Computer Science Students University of Toronto Scarborough
           </mj-text>
         </mj-column>
       </mj-section>
